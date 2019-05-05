@@ -12,8 +12,13 @@
 		DB844F4222780E3D00212D60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB844F4022780E3D00212D60 /* Main.storyboard */; };
 		DB844F4422780E3E00212D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB844F4322780E3E00212D60 /* Assets.xcassets */; };
 		DB844F4722780E3E00212D60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB844F4522780E3E00212D60 /* LaunchScreen.storyboard */; };
-		DB844F5222780E3E00212D60 /* ConnectFourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB844F5122780E3E00212D60 /* ConnectFourTests.swift */; };
 		DB844F5D22780E3E00212D60 /* ConnectFourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB844F5C22780E3E00212D60 /* ConnectFourUITests.swift */; };
+		DB844F6B22781C5700212D60 /* ConnectFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB844F6A22781C5700212D60 /* ConnectFour.swift */; };
+		DB844F6D227821C000212D60 /* ConnectFourTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB844F6C227821C000212D60 /* ConnectFourTest.swift */; };
+		DB844F6E227822E000212D60 /* ConnectFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB844F6A22781C5700212D60 /* ConnectFour.swift */; };
+		DB844F70227E7EBE00212D60 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB844F6F227E7EBE00212D60 /* GameState.swift */; };
+		DB844F71227E800200212D60 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB844F6F227E7EBE00212D60 /* GameState.swift */; };
+		DB844F73227EC73500212D60 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB844F72227EC73500212D60 /* PopUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +47,14 @@
 		DB844F4622780E3E00212D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB844F4822780E3E00212D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB844F4D22780E3E00212D60 /* ConnectFourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectFourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB844F5122780E3E00212D60 /* ConnectFourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectFourTests.swift; sourceTree = "<group>"; };
 		DB844F5322780E3E00212D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB844F5822780E3E00212D60 /* ConnectFourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectFourUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB844F5C22780E3E00212D60 /* ConnectFourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectFourUITests.swift; sourceTree = "<group>"; };
 		DB844F5E22780E3E00212D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB844F6A22781C5700212D60 /* ConnectFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectFour.swift; sourceTree = "<group>"; };
+		DB844F6C227821C000212D60 /* ConnectFourTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectFourTest.swift; sourceTree = "<group>"; };
+		DB844F6F227E7EBE00212D60 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		DB844F72227EC73500212D60 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,9 @@
 				DB844F4322780E3E00212D60 /* Assets.xcassets */,
 				DB844F4522780E3E00212D60 /* LaunchScreen.storyboard */,
 				DB844F4822780E3E00212D60 /* Info.plist */,
+				DB844F6A22781C5700212D60 /* ConnectFour.swift */,
+				DB844F6F227E7EBE00212D60 /* GameState.swift */,
+				DB844F72227EC73500212D60 /* PopUpViewController.swift */,
 			);
 			path = ConnectFour;
 			sourceTree = "<group>";
@@ -110,8 +121,8 @@
 		DB844F5022780E3E00212D60 /* ConnectFourTests */ = {
 			isa = PBXGroup;
 			children = (
-				DB844F5122780E3E00212D60 /* ConnectFourTests.swift */,
 				DB844F5322780E3E00212D60 /* Info.plist */,
+				DB844F6C227821C000212D60 /* ConnectFourTest.swift */,
 			);
 			path = ConnectFourTests;
 			sourceTree = "<group>";
@@ -256,7 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB844F73227EC73500212D60 /* PopUpViewController.swift in Sources */,
 				DB844F3F22780E3D00212D60 /* ViewController.swift in Sources */,
+				DB844F70227E7EBE00212D60 /* GameState.swift in Sources */,
+				DB844F6B22781C5700212D60 /* ConnectFour.swift in Sources */,
 				DB844F3D22780E3D00212D60 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +279,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB844F5222780E3E00212D60 /* ConnectFourTests.swift in Sources */,
+				DB844F71227E800200212D60 /* GameState.swift in Sources */,
+				DB844F6D227821C000212D60 /* ConnectFourTest.swift in Sources */,
+				DB844F6E227822E000212D60 /* ConnectFour.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
