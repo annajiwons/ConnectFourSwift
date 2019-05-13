@@ -2,4 +2,118 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ConnectFour/EndPopUpViewController.swift"
+            timestampString = "579398355.340299"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ConnectFour/MinimaxSolver.swift"
+            timestampString = "579398355.340404"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "minimax(for:withDepth:alpha:beta:isMaximizingPlayer:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ConnectFour.MinimaxSolver.minimax(for: ConnectFour.ConnectFour, withDepth: Swift.Int, alpha: Swift.Double, beta: Swift.Double, isMaximizingPlayer: Swift.Bool) -&gt; (score: Swift.Double, column: Swift.Optional&lt;Swift.Int&gt;)"
+                  moduleName = "ConnectFour"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annasong/Developer/ConnectFour/ConnectFour/MinimaxSolver.swift"
+                  timestampString = "579397317.2324311"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "754">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ConnectFourTests.MinimaxSolver.minimax(for: ConnectFourTests.ConnectFour, withDepth: Swift.Int, alpha: Swift.Double, beta: Swift.Double, isMaximizingPlayer: Swift.Bool) -&gt; (score: Swift.Double, column: Swift.Optional&lt;Swift.Int&gt;)"
+                  moduleName = "ConnectFourTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annasong/Developer/ConnectFour/ConnectFour/MinimaxSolver.swift"
+                  timestampString = "579397318.2599961"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "754">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ConnectFour/MinimaxSolver.swift"
+            timestampString = "579398355.340508"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "minimax(for:withDepth:alpha:beta:isMaximizingPlayer:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ConnectFour.MinimaxSolver.minimax(for: ConnectFour.ConnectFour, withDepth: Swift.Int, alpha: Swift.Double, beta: Swift.Double, isMaximizingPlayer: Swift.Bool) -&gt; (score: Swift.Double, column: Swift.Optional&lt;Swift.Int&gt;)"
+                  moduleName = "ConnectFour"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annasong/Developer/ConnectFour/ConnectFour/MinimaxSolver.swift"
+                  timestampString = "579397317.242049"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "2596">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ConnectFourTests.MinimaxSolver.minimax(for: ConnectFourTests.ConnectFour, withDepth: Swift.Int, alpha: Swift.Double, beta: Swift.Double, isMaximizingPlayer: Swift.Bool) -&gt; (score: Swift.Double, column: Swift.Optional&lt;Swift.Int&gt;)"
+                  moduleName = "ConnectFourTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annasong/Developer/ConnectFour/ConnectFour/MinimaxSolver.swift"
+                  timestampString = "579397318.2781399"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "2596">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

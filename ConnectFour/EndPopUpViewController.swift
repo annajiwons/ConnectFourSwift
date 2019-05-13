@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PopUpViewController: UIViewController {
+class EndPopUpViewController: UIViewController {
     
     private var text: String = ""
 
@@ -28,6 +28,8 @@ class PopUpViewController: UIViewController {
         text = message
     }
     
+    
+    // From https://github.com/awseeley/Swift-Pop-Up-View-Tutorial
     private func showAnimate()
     {
         self.view.transform = CGAffineTransform(scaleX: 1.3, y: 1.3)
@@ -38,6 +40,7 @@ class PopUpViewController: UIViewController {
         });
     }
     
+    // From https://github.com/awseeley/Swift-Pop-Up-View-Tutorial
     private func removeAnimate()
     {
         UIView.animate(withDuration: 0.25, animations: {

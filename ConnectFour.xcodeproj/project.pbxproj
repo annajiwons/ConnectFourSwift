@@ -12,24 +12,20 @@
 		DB844F4222780E3D00212D60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB844F4022780E3D00212D60 /* Main.storyboard */; };
 		DB844F4422780E3E00212D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB844F4322780E3E00212D60 /* Assets.xcassets */; };
 		DB844F4722780E3E00212D60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB844F4522780E3E00212D60 /* LaunchScreen.storyboard */; };
-		DB844F5D22780E3E00212D60 /* ConnectFourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB844F5C22780E3E00212D60 /* ConnectFourUITests.swift */; };
 		DB844F6B22781C5700212D60 /* ConnectFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB844F6A22781C5700212D60 /* ConnectFour.swift */; };
 		DB844F6D227821C000212D60 /* ConnectFourTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB844F6C227821C000212D60 /* ConnectFourTest.swift */; };
 		DB844F6E227822E000212D60 /* ConnectFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB844F6A22781C5700212D60 /* ConnectFour.swift */; };
 		DB844F70227E7EBE00212D60 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB844F6F227E7EBE00212D60 /* GameState.swift */; };
 		DB844F71227E800200212D60 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB844F6F227E7EBE00212D60 /* GameState.swift */; };
-		DB844F73227EC73500212D60 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB844F72227EC73500212D60 /* PopUpViewController.swift */; };
+		DB844F73227EC73500212D60 /* EndPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB844F72227EC73500212D60 /* EndPopUpViewController.swift */; };
+		DB9D84D62287EA0F00463DAC /* MinimaxSolverTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9D84D52287EA0F00463DAC /* MinimaxSolverTest.swift */; };
+		DB9D84D72287EA1F00463DAC /* MinimaxSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA1FFC2282B51F006E3D1C /* MinimaxSolver.swift */; };
+		DBBA1FFB2282ADEE006E3D1C /* StartPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA1FFA2282ADEE006E3D1C /* StartPopUpViewController.swift */; };
+		DBBA1FFD2282B51F006E3D1C /* MinimaxSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA1FFC2282B51F006E3D1C /* MinimaxSolver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		DB844F4E22780E3E00212D60 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DB844F3122780E3D00212D60 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DB844F3822780E3D00212D60;
-			remoteInfo = ConnectFour;
-		};
-		DB844F5922780E3E00212D60 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DB844F3122780E3D00212D60 /* Project object */;
 			proxyType = 1;
@@ -48,13 +44,13 @@
 		DB844F4822780E3E00212D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB844F4D22780E3E00212D60 /* ConnectFourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectFourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB844F5322780E3E00212D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB844F5822780E3E00212D60 /* ConnectFourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectFourUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB844F5C22780E3E00212D60 /* ConnectFourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectFourUITests.swift; sourceTree = "<group>"; };
-		DB844F5E22780E3E00212D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB844F6A22781C5700212D60 /* ConnectFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectFour.swift; sourceTree = "<group>"; };
 		DB844F6C227821C000212D60 /* ConnectFourTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectFourTest.swift; sourceTree = "<group>"; };
 		DB844F6F227E7EBE00212D60 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
-		DB844F72227EC73500212D60 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		DB844F72227EC73500212D60 /* EndPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPopUpViewController.swift; sourceTree = "<group>"; };
+		DB9D84D52287EA0F00463DAC /* MinimaxSolverTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimaxSolverTest.swift; sourceTree = "<group>"; };
+		DBBA1FFA2282ADEE006E3D1C /* StartPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPopUpViewController.swift; sourceTree = "<group>"; };
+		DBBA1FFC2282B51F006E3D1C /* MinimaxSolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimaxSolver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,13 +68,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB844F5522780E3E00212D60 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -87,7 +76,6 @@
 			children = (
 				DB844F3B22780E3D00212D60 /* ConnectFour */,
 				DB844F5022780E3E00212D60 /* ConnectFourTests */,
-				DB844F5B22780E3E00212D60 /* ConnectFourUITests */,
 				DB844F3A22780E3D00212D60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,7 +85,6 @@
 			children = (
 				DB844F3922780E3D00212D60 /* ConnectFour.app */,
 				DB844F4D22780E3E00212D60 /* ConnectFourTests.xctest */,
-				DB844F5822780E3E00212D60 /* ConnectFourUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,7 +100,9 @@
 				DB844F4822780E3E00212D60 /* Info.plist */,
 				DB844F6A22781C5700212D60 /* ConnectFour.swift */,
 				DB844F6F227E7EBE00212D60 /* GameState.swift */,
-				DB844F72227EC73500212D60 /* PopUpViewController.swift */,
+				DB844F72227EC73500212D60 /* EndPopUpViewController.swift */,
+				DBBA1FFA2282ADEE006E3D1C /* StartPopUpViewController.swift */,
+				DBBA1FFC2282B51F006E3D1C /* MinimaxSolver.swift */,
 			);
 			path = ConnectFour;
 			sourceTree = "<group>";
@@ -123,17 +112,9 @@
 			children = (
 				DB844F5322780E3E00212D60 /* Info.plist */,
 				DB844F6C227821C000212D60 /* ConnectFourTest.swift */,
+				DB9D84D52287EA0F00463DAC /* MinimaxSolverTest.swift */,
 			);
 			path = ConnectFourTests;
-			sourceTree = "<group>";
-		};
-		DB844F5B22780E3E00212D60 /* ConnectFourUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DB844F5C22780E3E00212D60 /* ConnectFourUITests.swift */,
-				DB844F5E22780E3E00212D60 /* Info.plist */,
-			);
-			path = ConnectFourUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,24 +155,6 @@
 			productReference = DB844F4D22780E3E00212D60 /* ConnectFourTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DB844F5722780E3E00212D60 /* ConnectFourUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DB844F6722780E3E00212D60 /* Build configuration list for PBXNativeTarget "ConnectFourUITests" */;
-			buildPhases = (
-				DB844F5422780E3E00212D60 /* Sources */,
-				DB844F5522780E3E00212D60 /* Frameworks */,
-				DB844F5622780E3E00212D60 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DB844F5A22780E3E00212D60 /* PBXTargetDependency */,
-			);
-			name = ConnectFourUITests;
-			productName = ConnectFourUITests;
-			productReference = DB844F5822780E3E00212D60 /* ConnectFourUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,10 +169,6 @@
 						CreatedOnToolsVersion = 10.2;
 					};
 					DB844F4C22780E3E00212D60 = {
-						CreatedOnToolsVersion = 10.2;
-						TestTargetID = DB844F3822780E3D00212D60;
-					};
-					DB844F5722780E3E00212D60 = {
 						CreatedOnToolsVersion = 10.2;
 						TestTargetID = DB844F3822780E3D00212D60;
 					};
@@ -230,7 +189,6 @@
 			targets = (
 				DB844F3822780E3D00212D60 /* ConnectFour */,
 				DB844F4C22780E3E00212D60 /* ConnectFourTests */,
-				DB844F5722780E3E00212D60 /* ConnectFourUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -253,13 +211,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB844F5622780E3E00212D60 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -267,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB844F73227EC73500212D60 /* PopUpViewController.swift in Sources */,
+				DB844F73227EC73500212D60 /* EndPopUpViewController.swift in Sources */,
+				DBBA1FFD2282B51F006E3D1C /* MinimaxSolver.swift in Sources */,
 				DB844F3F22780E3D00212D60 /* ViewController.swift in Sources */,
+				DBBA1FFB2282ADEE006E3D1C /* StartPopUpViewController.swift in Sources */,
 				DB844F70227E7EBE00212D60 /* GameState.swift in Sources */,
 				DB844F6B22781C5700212D60 /* ConnectFour.swift in Sources */,
 				DB844F3D22780E3D00212D60 /* AppDelegate.swift in Sources */,
@@ -279,17 +232,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB9D84D62287EA0F00463DAC /* MinimaxSolverTest.swift in Sources */,
 				DB844F71227E800200212D60 /* GameState.swift in Sources */,
 				DB844F6D227821C000212D60 /* ConnectFourTest.swift in Sources */,
 				DB844F6E227822E000212D60 /* ConnectFour.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB844F5422780E3E00212D60 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DB844F5D22780E3E00212D60 /* ConnectFourUITests.swift in Sources */,
+				DB9D84D72287EA1F00463DAC /* MinimaxSolver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,11 +247,6 @@
 			isa = PBXTargetDependency;
 			target = DB844F3822780E3D00212D60 /* ConnectFour */;
 			targetProxy = DB844F4E22780E3E00212D60 /* PBXContainerItemProxy */;
-		};
-		DB844F5A22780E3E00212D60 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DB844F3822780E3D00212D60 /* ConnectFour */;
-			targetProxy = DB844F5922780E3E00212D60 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -522,46 +464,6 @@
 			};
 			name = Release;
 		};
-		DB844F6822780E3E00212D60 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4QB3ZV2LAM;
-				INFOPLIST_FILE = ConnectFourUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = annasong.ConnectFourUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ConnectFour;
-			};
-			name = Debug;
-		};
-		DB844F6922780E3E00212D60 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4QB3ZV2LAM;
-				INFOPLIST_FILE = ConnectFourUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = annasong.ConnectFourUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ConnectFour;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -588,15 +490,6 @@
 			buildConfigurations = (
 				DB844F6522780E3E00212D60 /* Debug */,
 				DB844F6622780E3E00212D60 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DB844F6722780E3E00212D60 /* Build configuration list for PBXNativeTarget "ConnectFourUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DB844F6822780E3E00212D60 /* Debug */,
-				DB844F6922780E3E00212D60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

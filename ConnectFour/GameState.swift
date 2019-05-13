@@ -9,15 +9,15 @@
 import Foundation
 
 enum GameState: Equatable {
-    case win(winner: Int)
+    case win
     case draw
     case ongoing
 }
 
 func ==(lhs: GameState, rhs: GameState) -> Bool {
     switch (lhs, rhs) {
-    case let (.win(a), .win(b)):
-        return a == b
+    case (.win, .win):
+        return true
     case (.draw, .draw):
         return true
     case (.ongoing, .ongoing):
